@@ -4,7 +4,7 @@ import "./footer.styles.scss";
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="Footer">
         <p>Footer component</p>
       </div>
     );
