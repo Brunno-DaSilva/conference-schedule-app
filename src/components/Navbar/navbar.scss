@@ -3,7 +3,7 @@
 .Navbar {
   width: 70%;
   margin: auto;
-  padding: 0.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -43,12 +43,14 @@
     button {
       background-color: transparent;
       font-size: 1.5rem;
-      color: white;
+      color: #02175c;
       padding: 1.1rem 1.5rem;
-      border: 1px solid white;
-      &hover {
+      border: 2px solid #02175c;
+      transition: ease-in-out 0.5s;
+      &:hover {
         cursor: pointer;
-        color: red;
+        color: white;
+        background-color: #02175c;
       }
     }
   }
