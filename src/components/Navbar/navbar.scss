@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.Navbar {
+  width: 70%;
+  margin: auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+
+  .Navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+
+    img {
+      width: 50px;
+    }
+    p {
+      color: white;
+      margin-left: 0.7rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .Navbar__items {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin: 0 1rem;
+      color: white;
+      font-size: 1.2rem;
+    }
+  }
+  .Navbar__button {
+    flex: auto;
+    margin-left: 3rem;
+    button {
+      background-color: transparent;
+      font-size: 1.5rem;
+      color: white;
+      padding: 1.1rem 1.5rem;
+      border: 1px solid white;
+      &hover {
+        cursor: pointer;
+        color: red;
+      }
+    }
+  }
+}
