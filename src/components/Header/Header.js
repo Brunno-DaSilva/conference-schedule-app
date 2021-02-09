@@ -13,6 +13,7 @@ function Header(props) {
   return (
     <div className="Header">
       <Navbar />
+      <h1>CONFERENCE</h1>
       <div className="Header__hero">
         <div className="hero__text">
           <p>Digital Coding</p>
@@ -26,11 +27,12 @@ function Header(props) {
       <div className="Header__info">
         <div className="info__location">
           <p>
-            {" "}
-            <FontAwesomeIcon
-              className="info-icons active"
-              icon={faMapMarkerAlt}
-            />
+            <span>
+              <FontAwesomeIcon
+                className="info-icons active"
+                icon={faMapMarkerAlt}
+              />
+            </span>
             City Hall, New York City
           </p>
         </div>
