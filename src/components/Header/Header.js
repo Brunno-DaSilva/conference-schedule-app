@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Countdown from "../Countdown/Countdown";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -33,7 +34,7 @@ function Header(props) {
                 icon={faMapMarkerAlt}
               />
             </span>
-            City Hall, New York City
+            AT&T Stadium, Dallas-TX
           </p>
         </div>
         <div className="info__time">
@@ -48,22 +49,7 @@ function Header(props) {
           </p>
         </div>
         <div className="info__countdown">
-          <div className="info__countdown--time">
-            <p className="zeros">00</p>
-            <p>Days</p>
-          </div>
-          <div className="info__countdown--time">
-            <p className="zeros">00</p>
-            <p>Hours</p>
-          </div>
-          <div className="info__countdown--time">
-            <p className="zeros">00</p>
-            <p>Minutes</p>
-          </div>
-          <div className="info__countdown--time">
-            <p className="zeros">00</p>
-            <p>Seconds</p>
-          </div>
+          <Countdown />
         </div>
       </div>
     </div>

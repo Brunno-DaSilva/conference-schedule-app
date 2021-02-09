@@ -1,0 +1,20 @@
+.Countdown {
+  display: flex;
+
+  .info__countdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: auto;
+
+    .info__countdown--time {
+      line-height: 0.5rem;
+      padding: 0.5rem 1rem;
+
+      .zeros {
+        color: white;
+        font-size: 4rem;
+      }
+    }
+  }
+}
