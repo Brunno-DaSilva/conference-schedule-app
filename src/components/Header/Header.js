@@ -35,7 +35,7 @@ function Header(props) {
                 icon={faMapMarkerAlt}
               />
             </span>
-            AT&T Stadium, Dallas-TX
+            AT&T Stadium Dallas
           </p>
         </div>
         <div className="info__time">
