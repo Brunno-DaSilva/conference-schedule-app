@@ -9,6 +9,13 @@
   min-height: 100vh;
   padding: 0.5rem;
   position: relative;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 
   h1 {
     position: absolute;
@@ -27,19 +34,35 @@
 
   .Header__hero {
     width: 70%;
-    padding: 4.5rem 2.5rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     flex: auto;
+    position: relative;
+
+    .hero__frame {
+      position: absolute;
+      width: 40rem;
+      height: 25rem;
+      border-left: 1.5rem solid #ffcd701f;
+      border-radius: 0.5rem;
+      z-index: 1;
+      left: -0.00001%;
+    }
 
     .hero__text {
       font-family: "Poppins", sans-serif;
       font-size: 5rem;
       line-height: 1rem;
       font-weight: 800;
+      z-index: 2;
     }
 
     .hero__button {
       margin-top: -2rem;
-
+      z-index: 99;
       button {
         background-color: transparent;
         font-size: 1.5rem;
@@ -48,6 +71,7 @@
         border: 2px solid white;
         transition: ease-in-out 0.5s;
         margin: 0.5rem 0;
+
         &:hover {
           cursor: pointer;
           color: #02175c;

@@ -16,6 +16,7 @@ function Header(props) {
       <Navbar />
       <h1>CONFERENCE</h1>
       <div className="Header__hero">
+        <div className="hero__frame"></div>
         <div className="hero__text">
           <p>Digital Coding</p>
           <p> Conference </p>
@@ -45,7 +46,7 @@ function Header(props) {
                 icon={faCalendarAlt}
               />
             </span>{" "}
-            12-15 MARCH 2022
+            26-28 MARCH 2022
           </p>
         </div>
         <div className="info__countdown">
